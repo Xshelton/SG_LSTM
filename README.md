@@ -22,9 +22,12 @@ For the file that are too large to upload in the github,we also uploaded the fil
 The S128_383_miRNA.csv can be download 
 links：https://pan.baidu.com/s/1UxRh-PrjaKUYKpIHxPDxzQ 
 password：qsg0 
+
 X_train5.csv
 links：https://pan.baidu.com/s/1ZvlfgQ8IjEo61extIU6WvQ 
 password：5o11 
 X_test5.csv
 links：https://pan.baidu.com/s/1X7OmbCQq8OeudzWmkZydqQ 
 password：ld7z 
+
+with file X_train5.csv and X_test5.csv, two python file can be run in the folder.
