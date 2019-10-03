@@ -31,3 +31,6 @@ links：https://pan.baidu.com/s/1X7OmbCQq8OeudzWmkZydqQ
 password：ld7z 
 
 with file X_train5.csv and X_test5.csv, two python file can be run in the folder.
+
+We also made a visualized interface contains the way we make the dataset,which can be download in the following website: 
+https://github.com/Xshelton/LG_LSTM_supplements
