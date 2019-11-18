@@ -88,5 +88,7 @@ I designed an UI for dataset construction. It contains all the content about how
 https://github.com/Xshelton/SG_LSTM_DatasetUI
 
 <p>
+ 
+ # SG-LSTM_core_result
  #If your only want the results of my research:
  core: https://github.com/Xshelton/SG_LSTM_core_result
