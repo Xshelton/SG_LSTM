@@ -85,16 +85,16 @@ After calculate all the pairs' Euclidean distance and cosine-similarity, you can
   
 # SG_LSTM_Dataset UI 
 I designed an UI for dataset construction. It contains all the content about how to use SG128_317_gene.csv and SG128_383_miRNA.csv to generate file like  'AXB_383_gene_default.csv'
-https://github.com/Xshelton/SG_LSTM_DatasetUI
+- SG_LSTM_Dataset UI  https://github.com/Xshelton/SG_LSTM_DatasetUI
 
 <p>
  
  # SG-LSTM_core_result
  #If your only want the results of my research:
- core: https://github.com/Xshelton/SG_LSTM_core_result
+ - SG-LSTM_core_result: https://github.com/Xshelton/SG_LSTM_core_result
  
  <p>
  
   # SG-LSTM_WHOLE_result
   In the WHOLE part,more than 14,000,000oairs of miRNA and Gene were predicted.
- https://github.com/Xshelton/SG-LSTM_WHOLE_result
+ - SG-LSTM_WHOLE_result https://github.com/Xshelton/SG-LSTM_WHOLE_result
