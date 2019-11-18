@@ -13,7 +13,7 @@
 - CuDNN version 7.4.2
 - OS: Win 10 64bit
 - Python version: IDLE (Python 3.7 64-bit)#yep I wrote directly in IDLE :)
-- **(In my another computer, I don't have CUDA for GPU and tensorflow-gpu, but I tested that it can still run in that computer)**
+- **(In my another computer, I don't have CUDA for GPU and tensorflow-gpu, but I tested that it could still run in that computer)**
 - Hardware: Core: Intel i5-2420M,RAM:16 GB ddr3 1600
 - OS: Win 10 64bit
 - Python version: IDLE (Python 3.7 64-bit)
