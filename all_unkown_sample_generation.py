@@ -11,7 +11,7 @@ gene_label=df2['label']
 df2=df2.add_suffix('_g')
 
 
-df3=pd.read_csv('SG_383_gene_default.csv',encoding='ANSI')#
+df3=pd.read_csv('AXB_383_gene_default',encoding='ANSI')#
 test_mirna=df3['0_mirna']
 test_gene=df3['1_gene']
 print('mirna',len(mirna_label))
