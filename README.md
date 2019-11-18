@@ -101,5 +101,5 @@ I designed an UI for dataset construction. It contains all the content about how
  <p>
  
   # SG-LSTM_WHOLE_result
-  In the WHOLE part,more than 14,000,000oairs of miRNA and Gene were predicted.
+  In the WHOLE part,more than 14,000,000 pairs of miRNA and Gene were predicted.
  - SG-LSTM_WHOLE_result https://github.com/Xshelton/SG-LSTM_WHOLE_result
