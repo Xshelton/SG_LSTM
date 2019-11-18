@@ -29,7 +29,7 @@ This is the code of SG_LSTM_core, the only difference between SG_LSTM_core and S
 -  print('In this test, The dataset is randomly separated into train and test set, you don’t have to generate other file')
 -  what you need is the dataset downloaded or generated use **SG_LSTM_Dataset UI**
 -  then change **RNN(LSTM) - fast validate-train.py**  **your_dataset_file_name='AXB_383_gene_default.csv'** into 
--  your_dataset_file_name='your file generated.csv'
+-  your_dataset_file_name=**'{}.csv'** **.format(your file's name!!!)**
 -  open the **RNN(LSTM) - fast validate-train.py** in IDLE and Press **F5**
 -  It will automatically begin to train ,the model will be saved in the same folder
 #### if you don't want to generate new dataset AXB_383_gene_default.csv can be downloaded either 
