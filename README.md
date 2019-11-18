@@ -58,14 +58,14 @@ also the scores!
 - here 'gg' means the iteration of fold. gg=5 means the last fold of SG-LSTM-core
 - please change it into your file root, otherwise it can not load the model.
  
- ### X_train5 and X_test5 can be download :
+ ### 2.1X_train5 and X_test5 can be download :
 - X_train5.csv
  links：https://pan.baidu.com/s/1ZvlfgQ8IjEo61extIU6WvQ 
  password：5o11 
 - X_test5.csv
 links：https://pan.baidu.com/s/1X7OmbCQq8OeudzWmkZydqQ 
 password：ld7z 
-### And can also be generated using 
+### 2.2 And can also be generated using 
  - **5_fold_cross_divided.py** and  **'AXB_383_gene_default.csv'**
  ## 5.Some Material for our framework(like dataset, and trained embedding)
  - **5_fold_cross_divided.py** can divide **'AXB_383_gene_default.csv'**(or other dataset) into five fold of train and test parts.
