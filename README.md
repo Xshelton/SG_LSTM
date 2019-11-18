@@ -7,7 +7,9 @@
 5. journal = {},}  
 
 ## 2.Environment: 
-- Hardware: Intel i7-7700HQ ;Graphic Card：GTX1060 6G;32 GB RAM
+- Hardware: Core: Intel i7-7700HQ ;  Graphic Card：GTX1060 6G;  RAM:32 GB ddr4 2666
+- CUDA Version 10.0.130
+- CuDNN version 7.4.2
 - OS: Win 10 64bit
 - Python version: IDLE (Python 3.7 64-bit)#yep I wrote directly in IDLE :)
 ## 3.Needed python package: 
