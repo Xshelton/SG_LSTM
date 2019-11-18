@@ -92,3 +92,8 @@ https://github.com/Xshelton/SG_LSTM_DatasetUI
  # SG-LSTM_core_result
  #If your only want the results of my research:
  core: https://github.com/Xshelton/SG_LSTM_core_result
+ 
+ <p>
+ 
+  # SG-LSTM_WHOLE_result(more than 14,000,000oairs of miRNA and Gene were predicted)
+ https://github.com/Xshelton/SG-LSTM_WHOLE_result
