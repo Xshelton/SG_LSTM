@@ -24,7 +24,7 @@
 
 
 ## 4.How to run the file:
-## SG_LSTM_core
+This is the code of SG_LSTM_core, the only difference between SG_LSTM_core and SG_LSTM_WHOLE is the difference between dataset and the way we store the unknown pairs' score.
 ### 1.Fast train:
 -  print('In this test, The dataset is randomly separated into train and test set, you don’t have to generate other file')
 -  what you need is the dataset downloaded or generated use **SG_LSTM_Dataset UI**
