@@ -1,4 +1,5 @@
-# SG_LSTM_core
+# SG_LSTM_Frame
+
 ## 1.project information 
 1. @ARTICLE{SG-LSTM-FRAME,
 2. author = {Weidun Xie(shelton xie),Jiawei Luo,Chu Pan,Ying Liu},  
@@ -23,6 +24,7 @@
 
 
 ## 4.How to run the file:
+## SG_LSTM_core
 ### 1.Fast train:
 -  print('In this test, The dataset is randomly separated into train and test set, you don’t have to generate other file')
 -  what you need is the dataset downloaded or generated use **SG_LSTM_Dataset UI**
@@ -63,7 +65,8 @@ also the scores!
 - X_test5.csv
 links：https://pan.baidu.com/s/1X7OmbCQq8OeudzWmkZydqQ 
 password：ld7z 
-
+### And can also be generated using 
+ - **5_fold_cross_divided.py** and  **'AXB_383_gene_default.csv'**
  ## 5.Some Material for our framework(like dataset, and trained embedding)
  - **5_fold_cross_divided.py** can divide **'AXB_383_gene_default.csv'**(or other dataset) into five fold of train and test parts.
  - **all_unkown_sample_generation.py** can generate all negative samples for prediction. Here in SG-LSTM-core, we generate all unknown samples by generating file. But in the SG-LSTM-WHOLE, because there are more than 14,000,000 pairs, we generate the score by producing a matrix to record the scores.
