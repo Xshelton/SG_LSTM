@@ -1,5 +1,4 @@
 # SG_LSTM_core
-
 ## 1.project information 
 1. @ARTICLE{SG-LSTM-FRAME,
 2. author = {Weidun Xie(shelton xie),Jiawei Luo,Chu Pan,Ying Liu},  
@@ -19,6 +18,7 @@
 - tensorflow-gpu       1.13.1(for LSTM)
 - numpy                1.16.2(for npy read and other functions)
 - matplotlib           3.0.3(for roc curve plot)
+
 
 ## 4.How to run the file:
 ### 1.Fast train:
@@ -87,4 +87,6 @@ After calculate all the pairs' Euclidean distance and cosine-similarity, you can
 I designed an UI for dataset construction. It contains all the content about how to use SG128_317_gene.csv and SG128_383_miRNA.csv to generate file like  'AXB_383_gene_default.csv'
 https://github.com/Xshelton/SG_LSTM_DatasetUI
 
-
+<p>
+ #If your only want the results of my research:
+ core: https://github.com/Xshelton/SG_LSTM_core_result
