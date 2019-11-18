@@ -1,23 +1,40 @@
-# SG_LSTM_core
-@ARTICLE{SG-LSTM-FRAME,
-author = {Weidun Xie(shelton xie),Jiawei Luo,Chu Pan,Ying Liu}
-title = {SG-LSTM-FRAME: A Frame Using Sequence and Geometry information via LSTM to predict gene-miRNA associations}
-year = {2019}
-journal = {}
-}
+<p># SG_LSTM_core
 
+@ARTICLE{SG-LSTM-FRAME,
+  
+author = {Weidun Xie(shelton xie),Jiawei Luo,Chu Pan,Ying Liu},  
+  
+title = {SG-LSTM-FRAME: A Frame Using Sequence and Geometry information via LSTM to predict gene-miRNA associations},
+
+year = {2019},  
+
+journal = {},}  
+
+<p>
 Environment: 
+  
 hardware: Intel i77700HQ ;GTX1060 6G;32 GB RAM
+
 OS:win 10 64bit
+
 Python version: IDLE (Python 3.7 64-bit)#yep I wrote directly in IDLE :)
+
 Needed python package: 
+
 PyQt5                5.10.1(for UI)
+
 Pandas               0.24.1(for file read)
+
 Sklearn              0.0(for comparison)
+
 tensorflow-estimator 1.13.0(for LSTM)
+
 tensorflow-gpu       1.13.1(for LSTM)
+
 numpy                1.16.2(for npy read and other functions)
 
+<p>
+  
 # SG_LSTM_Dataset UI 
 I designed an UI for dataset construction. 
 
