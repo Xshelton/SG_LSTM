@@ -1,4 +1,26 @@
-# SG_LSTM
+# SG_LSTM_core
+@ARTICLE{SG-LSTM-FRAME,
+author = {Weidun Xie(shelton xie),Jiawei Luo,Chu Pan,Ying Liu}
+title = {SG-LSTM-FRAME: A Frame Using Sequence and Geometry information via LSTM to predict gene-miRNA associations}
+year = {2019}
+journal = {}
+}
+
+Environment: 
+hardware: Intel i77700HQ ;GTX1060 6G;32 GB RAM
+OS:win 10 64bit
+Python version: IDLE (Python 3.7 64-bit)#yep I wrote directly in IDLE :)
+Needed python package: 
+PyQt5                5.10.1(for UI)
+Pandas               0.24.1(for file read)
+Sklearn              0.0(for comparison)
+tensorflow-estimator 1.13.0(for LSTM)
+tensorflow-gpu       1.13.1(for LSTM)
+numpy                1.16.2(for npy read and other functions)
+
+# SG_LSTM_Dataset UI 
+I designed an UI for dataset construction. 
+
 This is the repository of SG_LSTM methods 
 The dataset is 159MB for one fold of five folds, which I may upload later.
 After generation of Dataset, SG-LSTM(for test the model).py can help to build the model
@@ -32,5 +54,4 @@ password：ld7z
 
 with file X_train5.csv and X_test5.csv, two python file can be run in the folder.
 
-We also made a visualized interface contains the way we make the dataset,which can be download in the following website: 
-https://github.com/Xshelton/LG_LSTM_supplements
+
