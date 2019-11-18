@@ -13,6 +13,10 @@
 - CuDNN version 7.4.2
 - OS: Win 10 64bit
 - Python version: IDLE (Python 3.7 64-bit)#yep I wrote directly in IDLE :)
+- **(In my another computer, I don't have CUDA for GPU and tensorflow-gpu, but I tested that it can still run in that computer)**
+- Hardware: Core: Intel i5-2420M,RAM:16 GB ddr3 1600
+- OS: Win 10 64bit
+- Python version: IDLE (Python 3.7 64-bit)
 ## 3.Needed python package: 
 - PyQt5                5.10.1(for UI)
 - Pandas               0.24.1(for file read)
@@ -25,7 +29,7 @@
 
 ## 4.How to run the file:
 This is the code of SG_LSTM_core, the only difference between SG_LSTM_core and SG_LSTM_WHOLE is the difference between dataset and the way we store the unknown pairs' score.
-### 1.Fast train:
+### 4.1.Fast train:
 -  print('In this test, The dataset is randomly separated into train and test set, you don’t have to generate other file')
 -  what you need is the dataset downloaded or generated use **SG_LSTM_Dataset UI**
 -  then change **RNN(LSTM) - fast validate-train.py**  **your_dataset_file_name='AXB_383_gene_default.csv'** into 
@@ -35,7 +39,7 @@ This is the code of SG_LSTM_core, the only difference between SG_LSTM_core and S
 #### if you don't want to generate new dataset AXB_383_gene_default.csv can be downloaded either 
 AXB_383_gene_default.csv 159.1MB 
 link：https://pan.baidu.com/s/1Yy8RNfinV2B0G9l_Gb8-Ag  password：11v1 
-### 1.1 Fast test:
+### 4.2 Fast test:
 - In order to fast test: first put **RNN(LSTM)-fast-validate-test.py** and **AXB_383_gene_default.csv** and **models** in the same folder.
 -  Then change:
 -  your_dataset_file_name='AXB_383_gene_default.csv' into your_dataset_file_name='your file generated.csv' **if you decide to generate your own dataset.** otherwise ,skip this step
@@ -45,7 +49,7 @@ link：https://pan.baidu.com/s/1Yy8RNfinV2B0G9l_Gb8-Ag  password：11v1
 -  it will produced the y_score and y_label for your test set, named LSTM_y_score and LSTM_y_label ,and also after running the **RNN(LSTM)-fast-validate-test.py**,a ROC -curve would appear to indicate the performance of the model.
 
 
-### 2.Five fold cross validation Experiments:
+### 4.3.Five fold cross validation Experiments:
 - 0 SG-LSTM(for test the model).py can help to build the model
 - 0 SG-LSTM(for roc curve generation).py can use the model to do the test job, (generation of ROC curve)
 also the scores!
@@ -58,14 +62,14 @@ also the scores!
 - here 'gg' means the iteration of fold. gg=5 means the last fold of SG-LSTM-core
 - please change it into your file root, otherwise it can not load the model.
  
- ### 2.1X_train5 and X_test5 can be download :
+ ### 4.3.1 X_train5 and X_test5 can be download :
 - X_train5.csv
  links：https://pan.baidu.com/s/1ZvlfgQ8IjEo61extIU6WvQ 
  password：5o11 
 - X_test5.csv
 links：https://pan.baidu.com/s/1X7OmbCQq8OeudzWmkZydqQ 
 password：ld7z 
-### 2.2 And can also be generated using 
+### 4.3.2 And can also be generated using 
  - **5_fold_cross_divided.py** and  **'AXB_383_gene_default.csv'**
  ## 5.Some Material for our framework(like dataset, and trained embedding)
  - **5_fold_cross_divided.py** can divide **'AXB_383_gene_default.csv'**(or other dataset) into five fold of train and test parts.
@@ -88,18 +92,18 @@ After calculate all the pairs' Euclidean distance and cosine-similarity, you can
 
 <p>
   
-# SG_LSTM_Dataset UI 
+## 6 SG_LSTM_Dataset UI 
 I designed an UI for dataset construction. It contains all the content about how to use SG128_317_gene.csv and SG128_383_miRNA.csv to generate file like  'AXB_383_gene_default.csv'
 - SG_LSTM_Dataset UI  https://github.com/Xshelton/SG_LSTM_DatasetUI
 
 <p>
  
- # SG-LSTM_core_result
+ ## 7 SG-LSTM_core_result
  #If your only want the results of my research:
  - SG-LSTM_core_result: https://github.com/Xshelton/SG_LSTM_core_result
  
  <p>
  
-  # SG-LSTM_WHOLE_result
+  ## 8 SG-LSTM_WHOLE_result
   In the WHOLE part,more than 14,000,000 pairs of miRNA and Gene were predicted.
  - SG-LSTM_WHOLE_result https://github.com/Xshelton/SG-LSTM_WHOLE_result
