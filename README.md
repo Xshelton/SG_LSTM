@@ -9,7 +9,7 @@
 
 ## 2.Environment: 
 - Hardware: Intel i7-7700HQ ;Graphic Card：GTX1060 6G;32 GB RAM
-- OS:win 10 64bit
+- OS: Win 10 64bit
 - Python version: IDLE (Python 3.7 64-bit)#yep I wrote directly in IDLE :)
 ## 3.Needed python package: 
 - PyQt5                5.10.1(for UI)
@@ -22,22 +22,22 @@
 
 ## 4.How to run the file:
 ### 1.Fast train:
--  print('In this test, The dataset is randomly seperated into train and test set, you dont have to generate other file')
+-  print('In this test, The dataset is randomly separated into train and test set, you don’t have to generate other file')
 -  what you need is the dataset downloaded or generated use **SG_LSTM_Dataset UI**
 -  then change **RNN(LSTM) - fast validate-train.py**  **your_dataset_file_name='AXB_383_gene_default.csv'** into 
 -  your_dataset_file_name='your file generated.csv'
 -  open the **RNN(LSTM) - fast validate-train.py** in IDLE and Press **F5**
--  It will automatically begain to train ,the model will be saved in the same folder
+-  It will automatically begin to train ,the model will be saved in the same folder
 #### if you don't want to generate new dataset AXB_383_gene_default.csv can be downloaded either 
 AXB_383_gene_default.csv 159.1MB 
-link：https://pan.baidu.com/s/1Yy8RNfinV2B0G9l_Gb8-Ag  pswd：11v1 
+link：https://pan.baidu.com/s/1Yy8RNfinV2B0G9l_Gb8-Ag  password：11v1 
 ### 1.1 Fast test:
 - In order to fast test: first put **RNN(LSTM)-fast-validate-test.py** and **AXB_383_gene_default.csv** and **models** in the same folder.
 -  Then change:
--  your_dataset_file_name='AXB_383_gene_default.csv' into your_dataset_file_name='your file generated.csv' **if you dicide to generate your own dataset.** otherwise ,skip this step
+-  your_dataset_file_name='AXB_383_gene_default.csv' into your_dataset_file_name='your file generated.csv' **if you decide to generate your own dataset.** otherwise ,skip this step
 -  Then change:
 -  your_file_path="C://Users/shelton/Desktop/fast validate/models"  into your file root , otherwise it cannot find the model.
--  After the model successfully loaded,test will automatically run. 
+-  After the model successfully loaded, test will automatically run. 
 -  it will produced the y_score and y_label for your test set, named LSTM_y_score and LSTM_y_label ,and also after running the **RNN(LSTM)-fast-validate-test.py**,a ROC -curve would appear to indicate the performance of the model.
 
 
@@ -46,7 +46,7 @@ link：https://pan.baidu.com/s/1Yy8RNfinV2B0G9l_Gb8-Ag  pswd：11v1
 - 0 SG-LSTM(for roc curve generation).py can use the model to do the test job, (generation of ROC curve)
 also the scores!
 - 1.put SG-LSTM(for test the model).py and X_train5.csv and X_test5.csv in the same folder
-- 2.run SG-LSTM(for test the model).py (after a while of running,a folder named model5 would be generated)
+- 2.run SG-LSTM(for test the model).py (after a while of running, a folder named model5 would be generated)
 - 3.put SG-LSTM(for roc curve generation).py and X_train5.csv and X_test5.csv in the same folder
 - 4.You have to change the file root so that the roc curve could be generated successfully:
 - From module_file = tf.train.latest_checkpoint("I://DNN模型重新测试/LSTM测试/测试24 SG相乘128 五折交叉验证/LSTM for test/models{}".format(gg))
@@ -62,7 +62,10 @@ X_test5.csv
 links：https://pan.baidu.com/s/1X7OmbCQq8OeudzWmkZydqQ 
 password：ld7z 
 
- ## 5.Some Material for our framework(like dataset,and trained embeddings)
+ ## 5.Some Material for our framework(like dataset, and trained embedding)
+ - **5_fold_cross_divided.py** can divide **'AXB_383_gene_default.csv'**(or other dataset) into five fold of train and test parts.
+ - **all_unkown_sample_generation.py** can generate all negative samples for prediction. Here in SG-LSTM-core, we generate all unknown samples by generating file. But in the SG-LSTM-WHOLE, because there are more than 14,000,000 pairs, we generate the score by producing a matrix to record the scores.
+ 
 - S_gene2vec_320_34567.csv S_mrna2vec_384_34567.csv is the embedding generated from sequence information of 320 gene and 384miRNA
 - G_gene2vec_328_gene.csv G_mirna2vec_384_mirna.csv is the embedding generated from geometric information.
 
@@ -72,8 +75,8 @@ password：ld7z
 - SG128_317_gene.csv is the embedding merged from Geometric information embedding and Sequence information embedding of gene.
 - SG128_383_miRNA.csv is the embedding merged from Geometric information embedding and Sequence information embedding of miRNA.
 
-- Using SG128_317_gene.csv and SG128_383_miRNA.csv and a file from mitarbase , you can generate positive samples;
-After calculate all the pairs' euclean distance and cosine-similariy, you can eran a average distance. Using the positive samples and distance, you can generate the dataset, like 'AXB_383_gene_default.csv'
+- Using SG128_317_gene.csv and SG128_383_miRNA.csv and a file from mitarbase, you can generate positive samples;
+After calculate all the pairs' Euclidean distance and cosine-similarity, you can earn a average distance. Using the positive samples and distance, you can generate the dataset, like 'AXB_383_gene_default.csv'
 
 - 'AXB_383_gene_default.csv' is the training Dataset of SG-LSTM-core.
 
