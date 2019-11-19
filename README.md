@@ -3,7 +3,7 @@
 ## 1.project information 
 1. @ARTICLE{SG-LSTM-FRAME,
 2. author = {Weidun Xie(shelton xie),Jiawei Luo,Chu Pan,Ying Liu},  
-3. title = {SG-LSTM-FRAME: A Frame Using Sequence and Geometry information via LSTM to predict gene-miRNA associations},
+3. title = {SG-LSTM-FRAME: A computational frame using sequence and geometrical information via LSTM to predict miRNA-gene associations},
 4. year = {2019},  
 5. journal = {},}  
 
