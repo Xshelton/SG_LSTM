@@ -107,3 +107,5 @@ I designed an UI for dataset construction. It contains all the content about how
   ## 8 SG-LSTM_WHOLE_result
   In the WHOLE part,more than 14,000,000 pairs of miRNA and Gene were predicted.
  - SG-LSTM_WHOLE_result https://github.com/Xshelton/SG-LSTM_WHOLE_result
+## 9.SG_MR_TS(pairs of three).csv
+   3186 pairs of the associations were predicted by all of three mentioned methods. 
